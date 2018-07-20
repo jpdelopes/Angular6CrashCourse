@@ -12,11 +12,11 @@ export class DataService {
     return this.http.get('https://jsonplaceholder.typicode.com/users')
   }
 
-  getUser(userId)  {
+  getUser(userId) {
     return this.http.get('https://jsonplaceholder.typicode.com/users/'+userId)
   }
 
-  getPosts()  {
+  getPosts() {
     return this.http.get('https://jsonplaceholder.typicode.com/posts')
   }
 
